@@ -7,36 +7,32 @@
   "env": {
       "BOT_TOKEN": {
       "description": "Your Bot token. Get from https://t.me/botfather",
-      "value": ""
+      "value": "5389147124:AAEjGJrJWgW41pk2pexeric1Qr77CzR13MM"
     },
-    "SESSION_NAME": {
-      "description": "Your Bot's username.",
-      "value": "stnyoutubedownloaderbot",
-      "required":false
-    },
+   
     "API_ID": {
       "description": "Your API_ID.  Refer project docs.",
-      "value": ""
+      "value": "14219833"
     },
     "API_HASH": {
       "description": "Your API_ID. Refer project docs.",
-      "value": ""
+      "value": "3889273685fafce5e76d76a2ad6b00e8"
     },
     "CLIENT_ID": {
       "description": "Your Google CLIENT_ID. Refer project docs.",
-      "value": ""
+      "value": "972494475103-89vbfu8oa6h93esviv974v10md2eejfe.apps.googleusercontent.com"
     },
     "CLIENT_SECRET": {
       "description": "Your Google CLIENT_SECRET. Refer project docs.",
-      "value": ""
+      "value": "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"
     },
     "BOT_OWNER": {
       "description": "Telegram id of the bot owner.",
-      "value": ""
+      "value": "624259152"
     },
     "AUTH_USERS": {
       "description": "Telegram id of authorised users, separated by comma",
-      "value": "",
+      "value": "624259152",
       "required":false
     },
     "VIDEO_DESCRIPTION": {
@@ -61,7 +57,7 @@
     },
     "UPLOAD_MODE": {
       "description": "The video's privacy status. Valid values for this property are: private, public, unlisted",
-      "value": "private",
+      "value": "unlisted",
       "required":false
     },
     "DEBUG": {
