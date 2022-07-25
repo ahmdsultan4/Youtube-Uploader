@@ -3,23 +3,21 @@ import os
 
 class Config:
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = "5389147124:AAEjGJrJWgW41pk2pexeric1Qr77CzR13MM"
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
+    API_ID = "14219833"
 
-    API_ID = int(os.environ.get("API_ID"))
+    API_HASH = "3889273685fafce5e76d76a2ad6b00e8"
 
-    API_HASH = os.environ.get("API_HASH")
+    CLIENT_ID = "61391530394-vp359e09g0begugu89i5r9majo05mduo.apps.googleusercontent.com"
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    CLIENT_SECRET = "972494475103-89vbfu8oa6h93esviv974v10md2eejfe.apps.googleusercontent.com"
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
-
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
+    BOT_OWNER = "624259152"
 
     AUTH_USERS_TEXT = os.environ.get("AUTH_USERS", "")
 
-    AUTH_USERS = [BOT_OWNER, 374321319] + (
+    AUTH_USERS = [BOT_OWNER, 624259152] + (
         [int(user.strip()) for user in AUTH_USERS_TEXT.split(",")]
         if AUTH_USERS_TEXT
         else []
